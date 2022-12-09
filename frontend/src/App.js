@@ -6,7 +6,7 @@ import "./App.css";
 import Form from "./components/Form";
 import UsersList from "./components/UserList";
 
-const BASE_URL = "https://simplecrud-production.up.railway.app";
+const BASE_URL = "simplecrud-production.up.railway.app";
 
 function App() {
   const [userData, setUserData] = useState(null);
